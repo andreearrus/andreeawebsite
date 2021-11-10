@@ -1,0 +1,188 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main styling */
+html,body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a{
+text-decoration: none;
+color: #333;
+}
+
+h1, h2, h3{
+  padding-bottom: 20px;
+}
+
+/* p has a margin by defualut but I reset it at the beggining */
+p{
+  margin: 10px 0;
+}
+/* 10px top and button 0 left and right */
+
+/* Utilities classes */
+/* this container is for the logo */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.text-primary {
+  color: rgb(0, 0, 0);
+}
+
+.lead {
+  font-size: 18px;
+}
+
+/* this is hover for read more about me */
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  opacity: 80%;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #3629e9;
+  color: white;
+}
+
+.btn-light{
+  background: #cccccc;
+  color: black;
+}
+
+
+
+/* NAVBAR */
+
+.logo{
+  font-family: 'Dancing Script', cursive;
+}
+
+
+#navbar{
+  background: rgb(19, 19, 19);
+  color: rgb(243, 243, 243);
+  overflow: auto;
+  /* so the background will show no matter what */
+}
+
+#navbar a {
+  color: white;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+/* I put the list to right */
+#navbar ul{
+  list-style: none;
+  float: right;
+}
+
+/* hoirizontal */
+#navbar ul li{
+  float: left;
+}
+
+/*  display them as blocks, so I can add padding 20px all around */
+
+#navbar ul li a {
+  display: block; 
+  padding: 20px;
+  text-align: center;
+}
+
+/* hover - the text change the color because the user wants to click on it   */
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+  background: rgb(0, 0, 0);
+  color: #433bc0;
+}
+
+
+
+/* Style for showcase */
+
+#showcase{ 
+  background-image: url('../pic/airplane.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat; 
+
+}
+
+#showcase .showcase-content{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 250px;
+  background-image: url('../pic/showcase.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 20em;
+  margin: auto;
+  overflow: auto;
+  
+}
+
+#showcase .showcase-content h1 {
+  font-size: 40px;
+  line-height: 1.3em;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+/* footer */
+#main-footer{
+  background: rgb(19, 19, 19);
+  color: white;
+  display: flex;
+} 
+
+
+/* ABOUT ME PAGE 2*/
+
+#home-info{
+  height: 400px;
+  }
+
+.split-screen{
+  display:flex;
+}
+
+.info-img{
+  flex: 50%;
+  display: flex;
+}
+
+.info-content{
+  padding:25px;
+  flex:50%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+
